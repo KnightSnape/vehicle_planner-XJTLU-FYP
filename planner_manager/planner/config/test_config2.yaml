@@ -1,0 +1,35 @@
+
+room_name: "IR"
+
+points: 3
+
+point:
+  idx1:
+    pos: [0, 0, 0] #坐标位
+    level: 1 #层数
+    area: [[-5,0,-5],[-5,0,5],[5,0,5],[5,0,-5]] #有效面积
+    type: 0 #类型
+  idx2:
+    pos: [10, 0, 0]
+    level: 1
+    area: [[5,0,-5],[5,0,5],[15,0,5],[15,0,-5]]
+    type: 0
+  idx3: 
+    pos: [0, 0.2, 6]
+    level: 1
+    area: [[-5,0,5],[5,0,5],[-5,0.4,7],[5,0.4,7]]
+    type: 1
+    outside1:
+      exitpoint: [0,0,50.0]
+      outidx: 0
+
+connection:
+  idx1:
+    points:
+      [[2,10],[3,20]]
+  idx2:
+    points:
+      [[1,10]]
+  idx3:
+    points:
+      [[1,5]]

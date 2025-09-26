@@ -1,0 +1,30 @@
+room_method: 1 # 0:room, 1:outside_demo, 2:outside partol, 3:exploration
+
+max_vel: 0.5
+max_acc: 0.2
+
+max_jerk: 4
+dynamic_environment: 0
+local_segment_length: 7.0
+clearance_threshold: 0.3
+control_points_distance: 0.3
+
+use_geometric_path: false
+use_topo_path: true
+use_optimization: true
+use_active_perception: true
+
+global_type: 3
+
+target_type: 1
+thresh_replan: 0.5
+thresh_no_replan: 2.0
+waypoint_num: 3
+act_map: false
+
+waypoints:
+  - [1.0, 2.0, 3.0]
+  - [4.0, 5.0, 6.0]
+  - [7.0, 8.0, 9.0]
+  - [10.0, 11.0, 12.0]
+

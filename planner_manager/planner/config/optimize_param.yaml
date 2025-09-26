@@ -1,0 +1,21 @@
+lambda1: 10.0
+lambda2: 5.5
+lambda3: 0.0000
+lambda4: 0.001
+lambda5: 1.5
+lambda6: 10.0
+lambda7: 20.0
+
+dist0: 0.6 #距离阈值
+dist1: 0.0
+
+max_vel: 0.5 #最大速度限制
+max_acc: 0.2 #最大加速度限制
+
+algorithm1: 15 #局部 + 梯度
+algorithm2: 9  #全局 + 梯度
+max_iteration_num1: 5
+max_iteration_num2: 200
+max_iteration_time1: 0.002
+max_iteration_time2: 0.02
+order: 3

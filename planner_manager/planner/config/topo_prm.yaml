@@ -1,0 +1,13 @@
+sample_inflate:
+  x: 1.0
+  y: 1.0
+  z: 0.0
+clearance: 0.3
+short_cut_num: 1
+ratio_to_short: 5.5
+reserve_num: 4
+max_sample_time: 0.1
+max_sample_num: 1000
+max_raw_path: 300
+max_raw_path2: 25
+parallel_shortcut: true
